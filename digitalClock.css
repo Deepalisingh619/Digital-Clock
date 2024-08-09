@@ -1,0 +1,62 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background : url(digitalClock.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(52, 51, 51);
+
+}
+.clock{
+    display: flex;
+
+}
+.clock div{
+    margin:5px;
+    position: relative;
+
+}
+.clock span{
+    width: 300px;
+    height: 200px;
+    background-color: palevioletred;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(213, 88, 109);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: rgb(243, 63, 93);
+}
+
