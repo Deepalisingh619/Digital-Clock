@@ -1,1 +1,1 @@
- A small biginner project based on html css and javascript
+ A small beginner project based on html css and javascript
